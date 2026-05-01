@@ -20,15 +20,7 @@ scripts/
   build_world_population_dashboard.py
 ```
 
-## What Is Included
-
-- Cleaning column names and percentage fields
-- Population trend analysis by year
-- Continent-level summary table
-- Top country rankings by population, growth rate, density, and change since 1970
-- Excel workbook with a dashboard, charts, source data, and short notes
-
-## How To Run
+## Run
 
 Create a virtual environment and install dependencies:
 
@@ -49,10 +41,3 @@ The workbook will be saved to:
 ```text
 outputs/project3_world_population/world_population_dashboard.xlsx
 ```
-
-## Notes
-
-The raw data comes from Kaggle and is included only for educational use. The cleaned file keeps the original country-level records and adds two derived fields:
-
-- `change_since_1970`
-- `growth_since_1970`
